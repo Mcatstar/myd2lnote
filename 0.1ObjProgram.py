@@ -27,6 +27,7 @@ class Person:
     def set_id_number(self, id_number):
         self.__id_number = id_number
     
+    # 魔法方法
     def __str__(self):
         return f"Person(Name: {self.name}, Age: {self.age}, Gender: {self._gender}, ID Number: {self.__id_number})"
     def __len__(self):
